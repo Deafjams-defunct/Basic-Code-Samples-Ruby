@@ -1,0 +1,35 @@
+\documentclass[12pt]{article}
+\usepackage{amsmath}
+\usepackage{geometry} \geometry{a4paper}
+\usepackage{setspace} \onehalfspacing
+
+\begin{document}
+
+\title{Project Euler Problem \#9} 
+\author{Emma Foster} 
+\date{October 1st 2014} 
+\maketitle
+
+A Pythagorean Triple $(a,b,c)$ is defined by two integers $n$ and $m$ such that $m > n$ by Euclid's Formula. Assuming:
+$$a^2 + b^2 = c^2$$
+$$a = 2mn, ~b = m^2 - n^2, ~c = m^2 + n^2$$
+In the problem, we're given an additional condition $a + b + c = 1000$, so we have the system:
+$$
+\begin{cases}
+	a^2 + b^2 = c^2
+    \\
+	a + b + c = 1000
+    \\
+\end{cases}
+$$
+Substituting Euclid's form into the second equation, we get the equation:
+$$m(m+n) = 500$$
+Which has 12 integer solutions, with some checking we find that $m = 20$ and $n = 5$ yield
+
+$$a = 200, ~b = 375, ~c = 425$$
+$$\implies a + b + c = 200 + 375 + 425 = 1000$$
+$$\implies a^2 + b^2 = 40000 + 140625 = 180625 = c^2$$
+
+Our solution is the product $abc = 31875000$.
+
+\end{document}

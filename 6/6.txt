@@ -1,0 +1,6 @@
+No programming needed here.
+
+For sum of squares: Use Faulhaber's formula to determine sum
+for square of sum: Use Gauss' method to determine sum
+
+Difference gives 25164150

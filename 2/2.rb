@@ -13,7 +13,7 @@ solution = 0
   fib_number = calculate_fibonacci_number n
   
   #Checking if our calculated number is lower than 4 million and even, if so, adding to our solution
-  if fib_number < 4000000 and fib_number % 2 == 0 then solution += fib_number end
+  if fib_number < 4000000 and fib_number.even? then solution += fib_number end
   
 end
 
