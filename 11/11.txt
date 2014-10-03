@@ -1,0 +1,4 @@
+Sometimes programming is far less useful than your good ol' brain.
+This is a great word search!
+
+Solution: 89 * 94 * 97 * 87 = 70,600,674, diagonally left and down from 89 at (13, 7)

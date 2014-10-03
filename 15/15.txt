@@ -1,0 +1,1 @@
+It doesn't matter which order we choose, we must always move 20 right or 20 down. That's a combination. We can count them by using the binomial coefficient 20 + 20 choose 20, which is 137,846,528,820.
