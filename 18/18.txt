@@ -1,0 +1,16 @@
+1. Convert the triangle text into a csv file and load into Numbers or Excel.
+2. Color cells based on their values. I chose:
+    if cell > 90, color blue
+    if cell > 70, color teal
+    if cell > 50, color green
+    if cell > 30, color yellow
+    if cell > 10, color orange
+    if cell > 0, color red
+    
+3. From top and and bottom, manually highlight paths with large numbers in them
+    Note: valid moves from bottom are: cell above and cell left of above, and from top: down or right of down
+    
+4. Connect promising top and bottom paths. Highlight entire path.
+5. Numbers or Excel give sum totals of highlighted cells. The path with highest sum isn't hard to find.
+
+Solution: 1074
