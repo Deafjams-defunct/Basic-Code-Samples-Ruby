@@ -1,0 +1,13 @@
+The totient function of a number n measures the number of relatively prime integers less than n.
+
+But, what we really want is a maximum of n/totient(n) where n <= 1_000_000. Meaning, we want totient(n) to be minimized.
+
+totient(n) is small when n has many prime divisiors.
+
+So, we can generate a number that is less than or equal to 1_000_000 with a lot of prime divisors!
+
+Simply multiply primes: 2 * 3 * 5 * ...
+
+It turns out the largest number less than equal to 1_000_000 generated in this way is 510,510 = 2 * 3 * 5 * 11 * 13 * 17.
+
+510,510 is our solution.
