@@ -1,3 +1,3 @@
 require 'prime'
 
-p Prime.each(2000000).inject(:+) #142913828922
+p Prime.each(2000000).reduce(:+) #142913828922

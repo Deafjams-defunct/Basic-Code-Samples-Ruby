@@ -4,7 +4,7 @@ solution = 0
 
 (0..987).each do |n|
   
-  product = big_number[n..n + 12].inject(:*) #Multiply all these numbers
+  product = big_number[n..n + 12].reduce(:*) #Multiply all these numbers
   if product > solution then solution = product end
   
 end

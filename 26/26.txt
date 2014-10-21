@@ -1,0 +1,7 @@
+Use OEIS sequence A051626
+http://oeis.org/A051626
+table: http://oeis.org/A051626/b051626.txt
+
+Find highest in first 1,000.
+
+Solution: 983
